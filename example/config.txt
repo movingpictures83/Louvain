@@ -1,0 +1,2 @@
+Prefix plugins/Louvain/example/
+Plugin Louvain inputfile corrP.never.positive.csv outputfile corrP.never.positive.clusters.csv
