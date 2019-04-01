@@ -18,7 +18,7 @@ class LouvainPlugin:
     def run(self):
         self.partition = community.best_partition(self.G)
         self.clusters = []
-        for key in self.partition.iterkeys():
+        for key in self.partition.keys():
            cluster = self.partition[key]
            if (cluster >= len(self.clusters)):
               resize(self.clusters, cluster+1)
