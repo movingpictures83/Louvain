@@ -2,8 +2,9 @@
 # Language: Python
 # Input: CSV (network)
 # Output: CSV (clusters)
-# Tested with: PluMA 1.0, Python 3.6
-# Dependencies: Pandas (Tested with 0.23.4), NetworkX (Tested with 1.11), Python-Louvain (Testing with 0.11)
+# Tested with: PluMA 1.1, Python 3.6
+# Dependencies: pandas==1.0.1, networkx==2.2, community==0.11
+
 
 PluMA plugin that runs the Louvain clustering algorithm (Blondel et al, 2008)
 on an input network in CSV format, producing an output CSV file of clusters.
